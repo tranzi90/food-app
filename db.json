@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Hamburger",
+      "price": 200,
+      "type": "burger",
+      "img": "https://w7.pngwing.com/pngs/203/765/png-transparent-hamburger-with-vegetables-hamburger-slider-hamburger-burger-food-recipe-cheeseburger.png"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Burger",
+      "price": 130,
+      "type": "burger",
+      "img": "https://w7.pngwing.com/pngs/497/544/png-transparent-whopper-hamburger-big-king-chicken-nugget-chicken-fingers-burger-king-food-recipe-chicken-meat.png"
+    },
+    {
+      "id": 3,
+      "title": "Big Mac",
+      "price": 110,
+      "type": "burger",
+      "img": "https://w7.pngwing.com/pngs/75/843/png-transparent-mcdonald-s-big-mac-fast-food-hamburger-eating-big-mac-food-cheeseburger-american-food-thumbnail.png"
+    },
+    {
+      "id": 4,
+      "title": "Cheeseburger",
+      "price": 50,
+      "type": "burger",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/11/Cheeseburger.png"
+    },
+    {
+      "id": 5,
+      "title": "Taco",
+      "price": 170,
+      "type": "taco",
+      "img": "https://www.pngall.com/wp-content/uploads/4/Taco-PNG-Image.png"
+    },
+    {
+      "id": 6,
+      "title": "Chicken Roll",
+      "price": 190,
+      "type": "roll",
+      "img": "https://www.kindpng.com/picc/m/67-678068_chicken-roll-png-chicken-paratha-roll-png-transparent.png"
+    },
+    {
+      "id": 7,
+      "title": "Coca-Cola",
+      "price": 99,
+      "type": "drink",
+      "img": "https://purepng.com/public/uploads/large/purepng.com-coca-colacoca-colacokecarbonated-soft-drinksoft-drink-141152723341416a62.png"
+    },
+    {
+      "id": 8,
+      "title": "Fanta",
+      "price": 59,
+      "type": "drink",
+      "img": "https://www.pngplay.com/wp-content/uploads/12/Fanta-PNG-Clip-Art-HD-Quality.png"
+    }
+  ]
+}
