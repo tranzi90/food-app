@@ -1,1 +1,9 @@
-<p>home works!</p>
+<main>
+  <div class="catalog">
+    <app-food-item
+      *ngFor="let item of food"
+      [food]="item"
+    >
+    </app-food-item>
+  </div>
+</main>
