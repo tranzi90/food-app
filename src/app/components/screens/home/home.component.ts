@@ -11,7 +11,15 @@ export class HomeComponent implements OnInit {
     food: IFood[] = []
 
     constructor(private foodService: FoodService) {}
-    ngOnInit(): void {
+    ngOnInit() {
         this.foodService.getAll().subscribe((data) => (this.food = data))
+    }
+
+    onSearch(eventData: { searchTerm: string }) {
+        this.food = this.food.filter((food) =>
+            food.title
+                .toLowerCase()
+                .includes(eventData.searchTerm.toLowerCase())
+        )
     }
 }

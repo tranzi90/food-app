@@ -3,5 +3,6 @@
     type="text"
     [(ngModel)]="searchTerm"
     placeholder="Find fast food..."
-  >
+    (keydown)="setSearch($event)"
+  />
 </div>
