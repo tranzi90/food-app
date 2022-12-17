@@ -1,8 +1,13 @@
 <main>
-  <app-search [foods]="food"></app-search>
+  <app-search
+    (searchQuery)="onSearch($event)"
+  ></app-search>
+  <app-filters
+    (selectFilter)="onFilter($event)"
+  ></app-filters>
   <div class="catalog">
     <app-food-item
-      *ngFor="let item of food"
+      *ngFor="let item of filteredFood"
       [food]="item"
     >
     </app-food-item>
